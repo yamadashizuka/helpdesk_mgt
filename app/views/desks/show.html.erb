@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Who:</strong>
+  <%= @desk.who %>
+</p>
+
+<p>
+  <strong>Q:</strong>
+  <%= @desk.Q %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @desk.date %>
+</p>
+
+<%= link_to 'Edit', edit_desk_path(@desk) %> |
+<%= link_to 'Back', desks_path %>
