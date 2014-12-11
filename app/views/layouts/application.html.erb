@@ -22,10 +22,16 @@
         <a class="navbar-brand" href="/">HelpdeskMgt</a>
       </div>
       <div class="collapse navbar-collapse">
+        <% if user_signed_in? %>
         <ul class="nav navbar-nav">
-          <li ><%= link_to '問い合わせ', inquiries_path %></li>
-          <li ><%= link_to '回答', responses_path %></li>
+          <li><%= link_to '問い合わせ', inquiries_path %></li>
+          <li><%= link_to '回答', responses_path %></li>
         </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "ログアウト", destroy_user_session_path, :method => :delete %></li>
+      </ul>
+        <% end %>
+
       </div>
     </div>
   </nav>
