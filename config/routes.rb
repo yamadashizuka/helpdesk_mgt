@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :inquiries
+
   root to: redirect('/desks')
   resources :desks
 
