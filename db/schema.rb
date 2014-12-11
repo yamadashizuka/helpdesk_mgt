@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20141211022609) do
+=======
+ActiveRecord::Schema.define(version: 20141211045646) do
+>>>>>>> e4c0ba076d604e95f2a598f39195f5a94dcb71bf
 
   create_table "desks", force: true do |t|
     t.string   "who"
@@ -52,6 +56,8 @@ ActiveRecord::Schema.define(version: 20141211022609) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "userid"
+    t.string   "name"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

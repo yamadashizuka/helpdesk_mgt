@@ -3,8 +3,7 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
   
-  
-  #before_actionを設定
+    #before_actionを設定
   before_action :authenticate_user!
 
   #before_filterを設定
@@ -16,5 +15,4 @@ class ApplicationController < ActionController::Base
     #strong parametersを設定し、useridを許可
     devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:userid, :email, :password, :password_confirmation, :email) }
   end
-
-  end
+end
