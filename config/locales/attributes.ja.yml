@@ -5,3 +5,7 @@ ja:
         who: 誰から
         Q: 質問
         date: 日付
+      inquiry:
+        accepted_datetime: 受付日時
+        inquired_person: 問い合わせ者
+        contents: 問合せ内容
