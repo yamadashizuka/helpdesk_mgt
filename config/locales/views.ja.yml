@@ -3,4 +3,9 @@ ja:
     desk_title: ヘルプデスク問い合わせ一覧
     desk_new_title: ヘルプデスク問い合わせの新規登録
     inquiries_title: 問合せ一覧
+    inquiry_create: 問合せの新規登録
+    inquiry_update: 問合せの更新
     responses_title: 回答一覧
+    response_create: 回答の新規登録
+    response_update: 回答の更新
+    back_to_list: 一覧へ戻る
