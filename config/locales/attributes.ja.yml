@@ -11,5 +11,5 @@ ja:
         contents: 問合せ内容
       response:
         responced_datetime: 回答日時
-        user_id: 回答者
+        user: 回答者
         contents: 回答内容

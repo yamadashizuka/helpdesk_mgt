@@ -6,3 +6,4 @@ ja:
     response_created: 回答を登録しました。
     response_updated: 回答を更新しました。
     response_destroyed: 回答を削除しました。
+    confirm_destroy: 削除してよろしいですか？
